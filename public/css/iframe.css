@@ -1,0 +1,97 @@
+﻿/***************************************************/
+/*				 modal window
+/***************************************************/
+#modalBox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    padding: 1.5% 1.5%;
+    -webkit-box-sizing: border-box;
+    -mozilla-box-sizing: border-box;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+  
+}
+#modalBox iframe {
+   border:none;
+   border-top:1px solid #ccc;
+}
+
+    #modalBox.second {
+        height: 96%;
+        padding: 2%;
+    }
+
+    #modalBox #modalInner {
+        height: 100%;
+        background: #f9f9f9;
+        border-bottom: 10px solid #f9f9f9;
+        overflow: hidden;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border:1px solid #808080;
+        border-radius:8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+#modalBox #modalInner p {
+            padding: 9px;
+            margin-bottom: 0;
+            font-size: 17px;
+            color: #fff;
+            background: #286090;
+
+}
+
+            #modalBox #modalInner p i {
+                margin-right: 10px;
+            }
+
+            #modalBox #modalInner p a {
+                float: right;
+            }
+
+                #modalBox #modalInner p a i {
+                    color: #fff;
+                    font-size: 20px;
+                    padding: 3px 5px;
+                    border-radius: 5px;
+                    float: right;
+                    margin: 0;
+                }
+
+#modalBack {
+    background: #000;
+    opacity: 0.6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    width: 100%;
+    height: 100%;
+}
+
+#modalBox.second {
+    height: 100%;
+    padding:10px 2%;
+}
+
+#modalBox.second #modalInner {
+        border-radius: 0;
+        height: 90%;
+    }
+
+        #modalBox.second #modalInner p#modalSecond {
+            background: url(/img/back.png);
+            overflow: hidden;
+        }
+
+            #modalBox.second #modalInner p#modalSecond a i {
+                color: #000;
+            }
+#modalBox.second.third {
+    margin-top:46px;
+}
